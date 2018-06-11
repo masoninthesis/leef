@@ -1,0 +1,17 @@
+// Custom Bootstrap Overwrites
+.card {
+  border: none !important;
+  box-shadow: $btn-box-shadow;
+
+  .card-header {
+    border-bottom: none;
+  }
+
+  .card-body {
+    color: $grey;
+  }
+}
+
+.badge {
+  @extend .my-1;
+}

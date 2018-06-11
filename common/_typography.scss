@@ -1,0 +1,32 @@
+p {
+  color: $grey;
+  font-size: 18px;
+}
+
+a {
+  color: $dark-grey;
+
+  &:hover {
+    color: $grey;
+    text-decoration: none;
+  }
+}
+
+.lead {
+  color: $gray-600 !important;
+
+  @extend .mute;
+  @extend .upcase;
+}
+
+.muli {
+  // font-family: muli;
+}
+
+h2.muli {
+  color: slateblue;
+}
+
+h5.muli {
+  color: slateblue;
+}

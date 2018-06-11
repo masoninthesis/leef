@@ -1,0 +1,16 @@
+// Hack to prevent horizontal scrolling
+body {
+  overflow-x: hidden;
+}
+
+.bg-rectangle {
+  position: absolute;
+  top: 214px;
+  right: -100px;
+  height: 500px;
+  width: 500px;
+  opacity: 0.27;
+  transform: rotate(25deg);
+  border-radius: 35px;
+  background: linear-gradient(360deg, rgba(163, 191, 250, 0.01) 0%, rgba(150, 129, 245, 0.56) 100%);
+}

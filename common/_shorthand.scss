@@ -1,0 +1,70 @@
+.mute {
+  @extend .text-muted;
+}
+
+.upcase {
+  @extend .text-uppercase;
+}
+
+// Widths
+
+.w-80 {
+  width: 80%;
+}
+
+// Flexbox
+
+.flex {
+  display: flex;
+  align-items: baseline;
+
+  &-s {
+    &-a {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    &-b {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &-b-c {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  &-c {
+    display: flex;
+    align-content: center;
+
+    &-c {
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &-col {
+    &-c {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+
+    &-end {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+  }
+
+  &-end {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

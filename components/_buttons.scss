@@ -1,0 +1,30 @@
+.btn {
+  box-shadow: none;
+  transition: $btn-transition;
+
+  &:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 10px 14px 6px rgba(211, 214, 231, 0.5);
+  }
+}
+
+.btn-round {
+  border-radius: 100px;
+  padding: 0.5rem 2rem !important;
+}
+
+.btn-primary {
+  border: none;
+
+  @extend .primary-gradient;
+
+  &:hover {
+    @extend .secondary-gradient;
+  }
+}
+
+.btn-outline-primary {
+  &:hover {
+    color: white !important;
+  }
+}

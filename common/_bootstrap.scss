@@ -12,6 +12,46 @@
   }
 }
 
+figure {
+  padding: 0;
+}
+
+.floating-cards {
+  perspective: 1500px;
+
+  .card {
+    width: 420px;
+    height: 420px;
+    padding: 45px 40px;
+    user-select: none;
+    border-radius: 25px;
+
+    .stack {
+      width: 420px;
+      height: 20px;
+      padding: 0 40px;
+      margin: 2px;
+      user-select: none;
+      border-radius: 10px;
+
+      @extend .miami;
+    }
+  }
+
+  .card-right {
+    transform: rotate3d(0.5, -0.866, 0, 15deg) rotate(1deg);
+  }
+
+  .card-left {
+    transform: rotate3d(0.5, 0.866, 0, 15deg) rotate(1deg);
+  }
+}
+
 .badge {
   @extend .my-1;
+}
+
+.dropdown-menu {
+  border: none !important;
+  box-shadow: $btn-box-shadow;
 }

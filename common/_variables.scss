@@ -10,11 +10,12 @@ $navbar-light-toggler-icon-bg: none;
 //
 
 // colors
-$blue:    #85a4ff !default;
-$crystal:          #a27aff;
-$grey:             #6b79bc;
-$dark-grey:        #3a457c;
-$purple:  #9681f5 !default;
+$blue:               #85a4ff !default;
+$crystal:                     #a27aff;
+$grey:                        #6b79bc;
+$dark-grey:                   #3a457c;
+$purple:             #9681f5 !default;
+$purple-faded:  lighten ($purple,20%);
 
 // gradients
 $miami:       linear-gradient(90deg, $blue, $purple 200%);
@@ -70,7 +71,7 @@ $miami-faded: linear-gradient(90deg, rgba(133, 164, 255, 0.25), rgba(150, 129, 2
 $red:     #ff6c6a !default;
 // $orange:  #fd7e14 !default;
 // $yellow:  #ffc107 !default;
-$green:   #00d1b2 !default;
+$green:   #50e3c2 !default;
 // $teal:    #20c997 !default;
 // $cyan:    #17a2b8 !default;
 
@@ -388,7 +389,7 @@ $font-family-monospace:       "Bebas", SFMono-Regular, Menlo, Monaco, Consolas, 
 // $btn-border-width:            $input-btn-border-width !default;
 //
 // $btn-font-weight:             $font-weight-normal !default;
-$btn-box-shadow:                 0 10px 14px 6px rgba(211, 214, 231, 0.5) !default;
+$btn-box-shadow:                 27.1px 62.5px 125px -25px #d3d6e7, -16.2px 37.5px 75px -37.5px #d3d6e7 !default;
 // $btn-focus-width:             $input-btn-focus-width !default;
 // $btn-focus-box-shadow:        $input-btn-focus-box-shadow !default;
 // $btn-disabled-opacity:        .65 !default;

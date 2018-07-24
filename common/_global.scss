@@ -1,6 +1,10 @@
 // Hack to prevent horizontal scrolling
 body {
   overflow-x: hidden;
+
+  .overflow-x-hidden {
+    overflow-x: hidden;
+  }
 }
 
 .bg-rectangle {

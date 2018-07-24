@@ -30,3 +30,9 @@ h2.muli {
 h5.muli {
   color: slateblue;
 }
+
+ul {
+  li {
+    @extend .pt-2;
+  }
+}
